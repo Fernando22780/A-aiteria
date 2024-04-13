@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açaiteria Du Bom</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-2 text-center">
+                    <img src="img/logo du bom.jpg" alt="Açaiteria Du Bom" class="logo">
+                    
+                </div>
+                <div class="col-md-6 text-center align-items-center-custom">
+                    <a href="#" class="btn">Home</a>
+                    <a href="cardapio.html" class="btn">Nossos Produtos</a>
+                    <a href="#" class="btn">Fale conosco</a>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Pesquisar...">
+                    </div>
+                    <a href="#" id="searchBtn" class="btn"><img src="img/pesquisa (1).png" alt="Pesquisar" class="lupa-icon"></a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="login.html" class="btn btn-login">Login</a>
+                    <a href="cadastro.html" class="btn btn-cadastro">Cadastro</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <h2 class="text-center mb-4 sobre-titulo">Sobre Nós</h2>
+                <p class="text-center" style="font-size: 24px;">"Na Açaiteria Du Bom, somos mais do que apenas uma açaiteria; somos um destino para os amantes de um estilo de vida saudável e saboroso. Localizada no coração de Vassouras, Rio de Janeiro, a Açaiteria Du Bom oferece uma experiência única, onde o sabor excepcional e os ingredientes frescos se encontram. Venha nos visitar e desfrutar de momentos deliciosos e revigorantes conosco!"</p>
+            </div>
+        </section>
+
+        <section id="menu-previas">
+            <div class="container">
+                <h2 class="text-center mb-4">Conheça Nossos Produtos</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="img/pedidos do açai/novo 01.jpg" alt="Açaí Tradicional">
+                            <h3>Açaí Tradicional</h3>
+                            <p>Rico açaí batido na hora, servido com frutas frescas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="img/pedidos do açai/açai 033.jpg" alt="Açaí com Granola">
+                            <h3>Açaí com Granola</h3>
+                            <p>Açaí completo, com frutas, perfeito para um café da manhã saudável.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="img/pedidos do açai/barca.jpg" alt="Açaí com Proteína">
+                            <h3>Açaí com Proteína</h3>
+                            <p>Barca completa, 1 L + 10 adicionais - promoçao!.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="localizacao">
+            <div class="container">
+                <h2 class="text-center mb-4">Localização</h2>
+                <p class="text-center">Endereço: Av. Expedicionário Osvaldo de Almeida Ramos, 280 - Centro, Vassouras - RJ, 27700-000</p>
+                <p class="text-center">Horário de Funcionamento: Seg-Sex: 10h-20h, Sáb-Dom: 11h-18h</p>
+                <p class="text-center"><a href="https://maps.app.goo.gl/PNLNmGLtwomb57dV8" target="_blank">Veja no Mapa</a></p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById("searchBtn").addEventListener("click", function() {
+            document.querySelector(".search-bar").classList.toggle("active");
+        });
+    </script>
+</body>
+</html>

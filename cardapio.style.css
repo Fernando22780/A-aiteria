@@ -1,0 +1,65 @@
+.bg-purple {
+    background-color: #6b1043;
+}
+.text-purple {
+    color: #6a0dad;
+}
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card-body {
+    border-radius: 0 0 10px 10px;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.btn-voltar {
+    color: #6b1043;
+    border-color: #6b1043;
+}
+.btn-voltar:hover {
+    color: #fff;
+    background-color: #6b1043;
+    border-color: #6b1043;
+}
+.logo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+.card-title {
+    font-size: 1.3rem; 
+    margin-bottom: 0; 
+}
+.card-text {
+    font-size: 1rem; 
+    margin-bottom: 0; 
+}
+.card-price {
+    font-size: 1.1rem; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+.btn-primary {
+    background-color: #6b1043;
+    border-color: #6b1043;
+}
+.btn-primary:hover {
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+}

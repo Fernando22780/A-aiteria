@@ -1,0 +1,222 @@
+.bg-purple {
+    background-color: #6a0dad;
+}
+
+.btn-light {
+    color: #6a0dad;
+    border-color: #6a0dad;
+}
+
+.btn-light:hover {
+    color: #fff;
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+}
+
+.menu-item {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.btn-login,
+.btn-cadastro {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-login:hover,
+.btn-cadastro:hover {
+    transform: scale(1.1);
+}
+
+.lupa-icon {
+    height: 20px;
+    width: auto;
+}
+
+.search-bar {
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+}
+
+.search-bar.active {
+    width: 200px;
+    padding: 5px;
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.align-items-center-custom {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar,
+#searchBtn {
+    margin-right: 10px;
+}
+
+#searchBtn {
+    flex-shrink: 0;
+}
+
+.btn-login,
+.btn-cadastro {
+    flex-shrink: 0;
+}
+
+
+.floating-text {
+    position: absolute;
+    top: 0; 
+    right: 20px;
+    background-color: #6b1043;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.sobre-titulo {
+    color: #000; 
+}
+.logo {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e0e0; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    background-color: #6b1043; 
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.menu-item {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+
+#sobre {
+    background-image: url('img/fundo\ pontinhis.avif'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 50px 0; 
+    color: white; 
+}
+
+#sobre p {
+    color: #333; 
+    font-size: 24px; 
+}
+
+.btn {
+    transition: all 0.3s ease-in-out;
+    background-color: #6b1043; 
+    border: 2px solid #6b1043; 
+    color: #fff; 
+    margin-right: 10px; 
+}
+
+.btn:hover {
+    background-color: #6b1043; 
+    color: #fff;
+}
+
+
+#localizacao {
+    background-image: url('img/cinza\ escu.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 50px 0; 
+    color: white; 
+}
+
+#localizacao a {
+    color: #6a0dad;
+    transition: color 0.3s ease-in-out;
+}
+
+#localizacao a:hover {
+    color: #333;
+}
+
+
+#menu-previas {
+    background-image: url('img/cor\ de\ fundo\ 1'); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #000; 
+}
+
+#menu-previas h2,
+#menu-previas p,
+#menu-previas h3 {
+    text-shadow: 0 0 10px rgba(255,255,255,0.7); 
+}
+
+
+.sobre-titulo {
+    color: #222;
+}
+    
+
